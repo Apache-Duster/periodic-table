@@ -89,3 +89,22 @@ tr:nth-child(8) :nth-child(n + 2):nth-child(-n + 15) {
   tr:nth-child(7):nth-child(7) :last-child {
     background-color: #e5cf9f;
   }
+
+  tr:nth-child(7):nth-child(7) :nth-child(17) {
+    background-color: rgba(128, 128, 177, 255);
+  }
+  tr:nth-child(n):nth-child(7) :nth-child(16) {
+    background-color: rgba(218, 139, 211, 255);
+  }
+  tr:nth-child(n + 2):nth-child(-n + 4) :nth-child(16) {
+    background-color: rgba(243, 255, 61, 255);
+  }
+  tr:nth-child(n + 4):nth-child(-n + 5) :nth-child(15) {
+    background-color: #ff9b69;
+  }
+  tr:nth-child(6):nth-child(6) :nth-child(15) {
+    background-color: #ffc0cd;
+  }
+  tr:nth-child(n + 2):nth-child(-n + 2) :nth-child(14) {
+    background-color: rgba(243, 255, 61, 255);
+  }
