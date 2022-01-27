@@ -86,3 +86,6 @@ tr:nth-child(8) :nth-child(n + 2):nth-child(-n + 15) {
   tr:nth-child(n + 1):nth-child(-n + 6) :last-child {
     background-color: rgba(218, 139, 211, 255);
   }
+  tr:nth-child(7):nth-child(7) :last-child {
+    background-color: #e5cf9f;
+  }
